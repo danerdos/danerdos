@@ -48,9 +48,9 @@
     </button>
 
     <nav id="main-navigation" class="navigation" aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
       <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -116,38 +116,223 @@
         </div>
       </div>
 
-      <a class="scroll-indicator" href="#about" aria-label="Scroll to about section">
+      <a class="scroll-indicator" href="#services" aria-label="Scroll to services section">
         <span>SCROLL</span>
         <i></i>
       </a>
     </section>
 
-    <section id="about" class="section section-grid">
-      <div class="section-heading reveal">
-        <p class="section-number">01</p>
-        <h2>About me</h2>
+    <section id="services" class="section services-section">
+      <div class="section-heading section-heading-row reveal">
+        <div><p class="section-number">01</p><h2>Services</h2></div>
+        <p>From an idea to a finished product, software solutions tailored to your goals.</p>
       </div>
-
-      <div class="about-content reveal">
-        <p class="large-copy">
-          I'm Daner Jasim <span class="accent-text">DOS</span> software developer
-          who enjoy to program and design every idea to a real project and solve
-          real problems in the most modern ways and modern technology
-        </p>
-
-        <div class="about-columns">
-          <p>
-            My work includes Windows desktop systems, mobile apps, backend APIs,
-            databases, and responsive websites. I care about both the technical
-            structure behind the product and the experience people have while using it.
-          </p>
-
-          <p>
-            I approach projects through careful planning, clear architecture,
-            iterative development, and real-world testing. The goal is not only
-            to make software work, but to make it easy to maintain and improve.
-          </p>
-        </div>
+      <div class="services-grid">
+        <article class="service-card service-mobile reveal">
+          <div class="service-visual" aria-hidden="true">
+            <svg class="service-illustration" viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <circle cx="185" cy="111" r="100" fill="#dce9f1"/>
+  <rect x="116" y="9" width="128" height="202" rx="22" fill="#20394c"/>
+  <rect x="122" y="15" width="116" height="190" rx="17" fill="#fff"/>
+  <rect x="160" y="18" width="40" height="8" rx="4" fill="#20394c"/>
+  <text x="135" y="47" fill="#183344" font-size="15" font-weight="800">My App</text>
+  <circle cx="221" cy="41" r="9" fill="#dfedf5"/><circle cx="221" cy="39" r="3" fill="#387fb2"/>
+  <rect x="132" y="57" width="96" height="58" rx="9" fill="#1b75bb"/>
+  <text x="142" y="76" font-size="10" font-weight="600" fill="#dcecf9">Today's overview</text>
+  <text x="142" y="100" font-size="19" font-weight="800" fill="white">24 Tasks</text>
+  <rect x="132" y="125" width="45" height="41" rx="7" fill="#e8f2f8"/><rect x="183" y="125" width="45" height="41" rx="7" fill="#e8f2f8"/>
+  <path d="M145 152l7-9 8 4 7-13" fill="none" stroke="#267db6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="206" cy="144" r="10" fill="#c6e1f1"/><path d="M201 144l4 4 8-9" stroke="#1b75bb" stroke-width="2.5" fill="none"/>
+  <rect x="137" y="178" width="86" height="5" rx="2" fill="#dae8ef"/>
+  <rect x="33" y="88" width="87" height="65" rx="12" fill="white" stroke="#a9c9de" stroke-width="2"/>
+  <rect x="46" y="99" width="48" height="6" rx="3" fill="#20394c"/><rect x="46" y="111" width="61" height="5" rx="2" fill="#a6c3d5"/>
+  <circle cx="55" cy="137" r="10" fill="#d6eddb"/><path d="M50 137l3 3 7-7" fill="none" stroke="#228552" stroke-width="3"/>
+  <rect x="240" y="66" width="84" height="49" rx="10" fill="white" stroke="#b6cfde" stroke-width="2"/>
+  <text x="252" y="85" fill="#34536a" font-size="9" font-weight="700">ACTIVITY</text>
+  <path d="M252 102l13-11 11 5 13-15 15 5" stroke="#1b75bb" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
+          </div>
+          <div class="service-details">
+            <span class="service-index">01 <span class="service-index-rule"></span> APP DEVELOPMENT</span>
+            <h3>Mobile Applications</h3>
+            <p class="service-subtitle">Mobile apps that feel effortless to use</p>
+            <p class="service-description">Custom Android and iOS apps built with smooth interfaces and practical features.</p>
+          </div>
+        </article>
+        <article class="service-card service-portfolio reveal">
+          <div class="service-visual" aria-hidden="true">
+            <svg class="service-illustration" viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <circle cx="180" cy="110" r="103" fill="#e1edf4"/>
+  <rect x="24" y="28" width="312" height="165" rx="13" fill="white" stroke="#92bad0" stroke-width="2"/>
+  <path d="M37 28h286a13 13 0 0 1 13 13v11H24V41a13 13 0 0 1 13-13Z" fill="#223e51"/>
+  <circle cx="41" cy="40" r="4" fill="#7fc4e9"/><circle cx="55" cy="40" r="4" fill="#7fc4e9"/><circle cx="69" cy="40" r="4" fill="#7fc4e9"/>
+  <rect x="41" y="65" width="153" height="111" rx="6" fill="#f4f8fa"/>
+  <rect x="50" y="75" width="135" height="11" rx="3" fill="#d7e9f4"/>
+  <text x="50" y="97" fill="#1b75bb" font-size="10" font-weight="800">HELLO, I'M A DEVELOPER</text>
+  <text x="50" y="122" fill="#193c55" font-size="19" font-weight="800">My Portfolio</text>
+  <rect x="50" y="134" width="102" height="6" rx="3" fill="#aec8d9"/>
+  <rect x="50" y="146" width="79" height="6" rx="3" fill="#aec8d9"/>
+  <rect x="207" y="65" width="112" height="111" rx="6" fill="#d9eaf4"/>
+  <circle cx="263" cy="103" r="26" fill="#96c3dc"/>
+  <circle cx="263" cy="94" r="11" fill="#244964"/>
+  <path d="M236 136c5-19 48-20 54 0" fill="#244964"/>
+  <rect x="222" y="148" width="82" height="6" rx="3" fill="white"/>
+  <rect x="222" y="160" width="57" height="5" rx="3" fill="white"/>
+  <rect x="133" y="183" width="94" height="13" rx="6" fill="#1b75bb"/>
+  <text x="180" y="192" font-size="9" text-anchor="middle" font-weight="700" fill="white">VIEW PROJECTS</text>
+</svg>
+          </div>
+          <div class="service-details">
+            <span class="service-index">02 <span class="service-index-rule"></span> PERSONAL BRANDING</span>
+            <h3>Personal Portfolios</h3>
+            <p class="service-subtitle">A professional home for your work</p>
+            <p class="service-description">Thoughtful portfolio websites that showcase your experience, work, and personality.</p>
+          </div>
+        </article>
+        <article class="service-card service-business reveal">
+          <div class="service-visual" aria-hidden="true">
+            <svg class="service-illustration" viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <circle cx="181" cy="110" r="103" fill="#e1edf4"/>
+  <rect x="23" y="28" width="314" height="165" rx="12" fill="white" stroke="#a5c5d7" stroke-width="2"/>
+  <path d="M35 28h290a12 12 0 0 1 12 12v13H23V40a12 12 0 0 1 12-12Z" fill="#233e52"/>
+  <circle cx="40" cy="41" r="4" fill="#a8d1e9"/><circle cx="54" cy="41" r="4" fill="#a8d1e9"/><circle cx="68" cy="41" r="4" fill="#a8d1e9"/>
+  <text x="38" y="70" font-size="11" font-weight="800" fill="#1d4962">YOUR COMPANY</text>
+  <text x="240" y="70" font-size="7.5" font-weight="700" fill="#7295aa">HOME   ABOUT   CONTACT</text>
+  <rect x="36" y="81" width="287" height="95" rx="5" fill="#e5f0f6"/>
+  <text x="49" y="107" font-size="11" font-weight="700" fill="#1b75bb">GROW YOUR BUSINESS</text>
+  <text x="49" y="128" font-size="16" font-weight="800" fill="#1a3a50">Built to stand out.</text>
+  <rect x="49" y="137" width="99" height="23" rx="5" fill="#1b75bb"/>
+  <text x="98.5" y="152" font-size="10" font-weight="700" fill="white" text-anchor="middle">OUR SERVICES</text>
+  <rect x="204" y="96" width="105" height="68" rx="7" fill="#a6cee4"/>
+  <rect x="214" y="106" width="30" height="48" rx="3" fill="#397da7"/>
+  <rect x="253" y="117" width="21" height="37" rx="3" fill="#69a5c6"/>
+  <rect x="283" y="102" width="15" height="52" rx="3" fill="#dbeaf2"/>
+  <path d="M210 155l20-21 18 8 21-24 22 3" stroke="white" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
+          </div>
+          <div class="service-details">
+            <span class="service-index">03 <span class="service-index-rule"></span> WEB DEVELOPMENT</span>
+            <h3>Business Websites</h3>
+            <p class="service-subtitle">A stronger presence for your company</p>
+            <p class="service-description">Modern, responsive websites that present your company, products, and services.</p>
+          </div>
+        </article>
+        <article class="service-card service-management reveal">
+          <div class="service-visual" aria-hidden="true">
+            <svg class="service-illustration" viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <circle cx="181" cy="109" r="103" fill="#e0edf4"/>
+  <rect x="18" y="27" width="324" height="165" rx="12" fill="white" stroke="#9bbccd" stroke-width="2"/>
+  <path d="M30 27h300a12 12 0 0 1 12 12v22H18V39a12 12 0 0 1 12-12Z" fill="#243c50"/>
+  <text x="37" y="48" font-size="13" font-weight="800" fill="white">Inventory Manager</text>
+  <circle cx="319" cy="44" r="9" fill="#4e9cc3"/>
+  <rect x="18" y="61" width="76" height="131" rx="0" fill="#ecf3f7"/>
+  <rect x="28" y="75" width="56" height="18" rx="4" fill="#1b75bb"/>
+  <text x="56" y="88" text-anchor="middle" fill="white" font-size="10" font-weight="700">Dashboard</text>
+  <text x="31" y="112" fill="#486a7f" font-size="10" font-weight="700">Products</text>
+  <text x="31" y="133" fill="#486a7f" font-size="10" font-weight="700">Stock</text>
+  <text x="31" y="154" fill="#486a7f" font-size="10" font-weight="700">Reports</text>
+  <text x="106" y="83" fill="#203c52" font-size="13" font-weight="800">Overview</text>
+  <rect x="106" y="94" width="69" height="48" rx="7" fill="#eaf3f9"/>
+  <rect x="184" y="94" width="69" height="48" rx="7" fill="#eaf3f9"/>
+  <rect x="262" y="94" width="67" height="48" rx="7" fill="#eaf3f9"/>
+  <text x="117" y="110" fill="#597c91" font-size="8">ITEMS</text><text x="117" y="129" fill="#1b75bb" font-size="20" font-weight="800">248</text>
+  <text x="195" y="110" fill="#597c91" font-size="8">ORDERS</text><text x="195" y="129" fill="#1b75bb" font-size="20" font-weight="800">36</text>
+  <text x="273" y="110" fill="#597c91" font-size="8">STOCK</text><text x="273" y="129" fill="#1b75bb" font-size="20" font-weight="800">92%</text>
+  <path d="M107 178h222" stroke="#cddfe9" stroke-width="1.3"/>
+  <rect x="117" y="162" width="19" height="16" rx="2" fill="#85b9d8"/><rect x="148" y="150" width="19" height="28" rx="2" fill="#1b75bb"/>
+  <rect x="179" y="159" width="19" height="19" rx="2" fill="#85b9d8"/><rect x="210" y="146" width="19" height="32" rx="2" fill="#1b75bb"/>
+  <rect x="241" y="155" width="19" height="23" rx="2" fill="#85b9d8"/><rect x="272" y="151" width="19" height="27" rx="2" fill="#1b75bb"/>
+</svg>
+          </div>
+          <div class="service-details">
+            <span class="service-index">04 <span class="service-index-rule"></span> BUSINESS SOLUTIONS</span>
+            <h3>Management Systems</h3>
+            <p class="service-subtitle">Better control of daily business operations</p>
+            <p class="service-description">Inventory, sales, restaurant, and other systems built to organize daily operations.</p>
+          </div>
+        </article>
+        <article class="service-card service-tools reveal">
+          <div class="service-visual" aria-hidden="true">
+            <svg class="service-illustration" viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <circle cx="181" cy="109" r="103" fill="#e0edf4"/>
+  <rect x="21" y="32" width="318" height="159" rx="13" fill="#20394c" stroke="#3b6078" stroke-width="2"/>
+  <text x="40" y="55" font-size="12" font-weight="800" fill="#e6f3fc">Custom Workflow Builder</text>
+  <circle cx="315" cy="49" r="5" fill="#56b9da"/>
+  <rect x="37" y="73" width="84" height="75" rx="8" fill="#f4f9fc"/>
+  <rect x="139" y="73" width="85" height="75" rx="8" fill="#e2eff8"/>
+  <rect x="243" y="73" width="80" height="75" rx="8" fill="#f4f9fc"/>
+  <text x="79" y="92" font-size="11" fill="#1d4d6b" font-weight="800" text-anchor="middle">INPUT</text>
+  <text x="181" y="92" font-size="11" fill="#1d4d6b" font-weight="800" text-anchor="middle">PROCESS</text>
+  <text x="283" y="92" font-size="11" fill="#1d4d6b" font-weight="800" text-anchor="middle">RESULT</text>
+  <rect x="51" y="108" width="54" height="7" rx="3" fill="#a4c7dc"/><rect x="51" y="121" width="38" height="7" rx="3" fill="#a4c7dc"/>
+  <circle cx="181" cy="120" r="16" fill="#1b75bb"/><path d="M174 120h14m-7-7v14" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="283" cy="120" r="16" fill="#c9ebd5"/><path d="M276 120l5 5 10-11" fill="none" stroke="#187946" stroke-width="3" stroke-linecap="round"/>
+  <path d="M122 110h17m-7-6 7 6-7 6M224 110h19m-7-6 7 6-7 6" stroke="#59b6df" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="38" y="161" width="138" height="7" rx="3" fill="#5b7f96"/>
+  <rect x="183" y="161" width="87" height="7" rx="3" fill="#5b7f96"/>
+  <rect x="284" y="156" width="39" height="17" rx="5" fill="#1b75bb"/>
+  <text x="303" y="168" text-anchor="middle" font-size="9" font-weight="800" fill="white">RUN</text>
+</svg>
+          </div>
+          <div class="service-details">
+            <span class="service-index">05 <span class="service-index-rule"></span> TAILORED SOFTWARE</span>
+            <h3>Custom Software Tools</h3>
+            <p class="service-subtitle">Built specifically around your workflow</p>
+            <p class="service-description">Private, purpose-built tools that solve the unique problems in your business workflow.</p>
+          </div>
+        </article>
+        <article class="service-card service-backend reveal">
+          <div class="service-visual" aria-hidden="true">
+            <svg class="service-illustration" viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <circle cx="181" cy="109" r="102" fill="#e0edf4"/>
+  <rect x="45" y="33" width="159" height="152" rx="12" fill="#20394c"/>
+  <path d="M57 33h135a12 12 0 0 1 12 12v18H45V45a12 12 0 0 1 12-12Z" fill="#2c5069"/>
+  <circle cx="60" cy="48" r="4" fill="#81c8e6"/><circle cx="73" cy="48" r="4" fill="#81c8e6"/>
+  <text x="61" y="87" font-family="monospace" font-size="11" font-weight="700" fill="#8ed8f5">GET /api/items</text>
+  <text x="61" y="112" font-family="monospace" font-size="11" fill="#e7f4fb">{</text>
+  <text x="76" y="134" font-family="monospace" font-size="11" fill="#addef2">"success": true</text>
+  <text x="61" y="156" font-family="monospace" font-size="11" fill="#e7f4fb">}</text>
+  <path d="M207 110h38" stroke="#1b75bb" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="m238 103 9 7-9 7" stroke="#1b75bb" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="286" cy="80" rx="41" ry="16" fill="#1b75bb"/>
+  <path d="M245 80v75c0 10 18 18 41 18s41-8 41-18V80" fill="#85b9d8" stroke="#1b75bb" stroke-width="2"/>
+  <ellipse cx="286" cy="117" rx="41" ry="16" fill="#77afce" stroke="#1b75bb" stroke-width="1.5"/>
+  <ellipse cx="286" cy="80" rx="41" ry="16" fill="#b2d8e9" stroke="#1b75bb" stroke-width="2"/>
+  <path d="M245 154c0 10 18 19 41 19s41-9 41-19" fill="none" stroke="#1b75bb" stroke-width="2"/>
+  <text x="286" y="101" text-anchor="middle" font-weight="800" font-size="11" fill="#20506b">DATABASE</text>
+</svg>
+          </div>
+          <div class="service-details">
+            <span class="service-index">06 <span class="service-index-rule"></span> SERVER-SIDE DEVELOPMENT</span>
+            <h3>Backend & API Development</h3>
+            <p class="service-subtitle">The reliable foundation behind your apps</p>
+            <p class="service-description">Reliable APIs, databases, and server-side logic to connect your digital products.</p>
+          </div>
+        </article>
+        <article class="service-card service-maintenance reveal">
+          <div class="service-visual" aria-hidden="true">
+            <svg class="service-illustration" viewBox="0 0 360 220" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <circle cx="181" cy="109" r="103" fill="#e0edf4"/>
+  <rect x="28" y="34" width="304" height="150" rx="13" fill="white" stroke="#9bbfce" stroke-width="2"/>
+  <path d="M41 34h278a13 13 0 0 1 13 13v19H28V47a13 13 0 0 1 13-13Z" fill="#20394c"/>
+  <text x="43" y="54" font-size="12" font-weight="800" fill="white">Application Health</text>
+  <circle cx="102" cy="119" r="36" fill="#d5f1df"/>
+  <circle cx="102" cy="119" r="23" fill="#269564"/>
+  <path d="m90 119 9 9 17-19" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="155" y="103" fill="#1d4054" font-size="17" font-weight="800">System healthy</text>
+  <text x="155" y="123" fill="#5a7a8d" font-size="11" font-weight="600">Everything running smoothly</text>
+  <rect x="155" y="137" width="146" height="9" rx="4" fill="#d9e9f1"/>
+  <rect x="155" y="137" width="132" height="9" rx="4" fill="#1b75bb"/>
+  <text x="155" y="164" fill="#1c7850" font-size="11" font-weight="800">✓  Updates & fixes applied</text>
+</svg>
+          </div>
+          <div class="service-details">
+            <span class="service-index">07 <span class="service-index-rule"></span> ONGOING SUPPORT</span>
+            <h3>Software Maintenance</h3>
+            <p class="service-subtitle">Keep your software working at its best</p>
+            <p class="service-description">Bug fixes, feature additions, and improvements that keep existing software working better.</p>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -184,109 +369,32 @@
       </div>
     </section>
 
-    <section id="services" class="section">
-      <div class="section-heading section-heading-row reveal">
-        <div>
-          <p class="section-number">03</p>
-          <h2>Services</h2>
-        </div>
-
-        <p>
-          Digital services designed to turn your ideas into practical,
-          reliable products.
-        </p>
+    <section id="about" class="section section-grid">
+      <div class="section-heading reveal">
+        <p class="section-number">03</p>
+        <h2>About me</h2>
       </div>
 
-      <div class="projects-list">
-        <article class="project-card reveal">
-          <div class="project-index">01</div>
+      <div class="about-content reveal">
+        <p class="large-copy">
+          I'm Daner Jasim <span class="accent-text">DOS</span> software developer
+          who enjoy to program and design every idea to a real project and solve
+          real problems in the most modern ways and modern technology
+        </p>
 
-          <div class="project-content">
-            <p class="project-type">DESKTOP SOFTWARE</p>
-            <h3>WINDOWS SYSTEMS</h3>
-            <p>
-              POS cashier systems, ERP management systems, and basic Windows apps.
-            </p>
-          </div>
+        <div class="about-columns">
+          <p>
+            My work includes Windows desktop systems, mobile apps, backend APIs,
+            databases, and responsive websites. I care about both the technical
+            structure behind the product and the experience people have while using it.
+          </p>
 
-          <div class="project-preview dashboard-preview" aria-hidden="true">
-            <div class="preview-sidebar">
-              <span></span><span></span><span></span><span></span>
-            </div>
-            <div class="preview-main">
-              <div class="preview-header"></div>
-              <div class="preview-stats">
-                <i></i><i></i><i></i>
-              </div>
-              <div class="preview-chart">
-                <b style="--height: 36%"></b>
-                <b style="--height: 62%"></b>
-                <b style="--height: 48%"></b>
-                <b style="--height: 78%"></b>
-                <b style="--height: 58%"></b>
-                <b style="--height: 88%"></b>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-index">02</div>
-
-          <div class="project-content">
-            <p class="project-type">ANDROID &amp; IOS</p>
-            <h3>MOBILE APPS</h3>
-            <p>
-              I can turn any mobile app idea into an application for both
-              Android and iOS.
-            </p>
-          </div>
-
-          <div class="project-preview mobile-preview" aria-hidden="true">
-            <div class="phone phone-back">
-              <div class="phone-screen">
-                <div class="phone-pill"></div>
-                <div class="mobile-block tall"></div>
-                <div class="mobile-row"><i></i><i></i><i></i></div>
-                <div class="mobile-block"></div>
-              </div>
-            </div>
-
-            <div class="phone phone-front">
-              <div class="phone-screen">
-                <div class="phone-pill"></div>
-                <div class="mobile-title"></div>
-                <div class="mobile-search"></div>
-                <div class="mobile-grid"><i></i><i></i><i></i><i></i></div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-index">03</div>
-
-          <div class="project-content">
-            <p class="project-type">WEBSITE DESIGN &amp; DEVELOPMENT</p>
-            <h3>BUSINESS & PORTFOLIO WEBSITES</h3>
-            <p>
-              From personal portfolios to company websites, I create responsive
-              experiences that present your work, services, and brand professionally.
-            </p>
-          </div>
-
-          <div class="project-preview website-preview" aria-hidden="true">
-            <div class="browser-bar">
-              <i></i><i></i><i></i>
-            </div>
-            <div class="browser-body">
-              <div class="browser-title"></div>
-              <div class="browser-line"></div>
-              <div class="browser-button"></div>
-              <div class="browser-art"></div>
-            </div>
-          </div>
-        </article>
+          <p>
+            I approach projects through careful planning, clear architecture,
+            iterative development, and real-world testing. The goal is not only
+            to make software work, but to make it easy to maintain and improve.
+          </p>
+        </div>
       </div>
     </section>
 
